@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .unord,
+        .ord,
+        .defi {
+            max-width: 100%;
+            height: 200px;
+            background-color: azure;
+            display: flex;
+            align-items: center;
+            margin-top: 40px;
+            border-radius: 20px;
+            padding: 0 50px;
+        }
+        .unord:hover {
+            background-color: rgb(112, 129, 177);
+            transition: all 1s ease;
+        } .ord:hover {
+            background-color: rgb(177, 176, 112);
+            transition: all 1s ease;
+        }
+        .defi:hover {
+            background-color: rgb(139, 112, 177);
+            transition: all 1s ease;
+        }
+
+        ul,
+        ol,
+        dl {
+            margin-left: 100px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="unord">
+        <h2>Unordered List: </h2>
+        <ul>
+            <li>Apples</li>
+            <li>Bananas</li>
+            <li>Cherries</li>
+            <li>Dates</li>
+        </ul>
+
+        <ul style="list-style-type: circle;">
+            <li>Apples</li>
+            <li>Bananas</li>
+            <li>Cherries</li>
+            <li>Dates</li>
+        </ul>
+
+        <ul style="list-style-type: square;">
+            <li>Apples</li>
+            <li>Bananas</li>
+            <li>Cherries</li>
+            <li>Dates</li>
+        </ul>
+
+    </div>
+
+    <div class="ord">
+        <h2>Ordered List:</h2>
+
+        <ol>
+            <li>Apples</li>
+            <li>Bananas</li>
+            <li>Cherries</li>
+            <li>Dates</li>
+        </ol>
+
+        <ol style="list-style-type: upper-roman;">
+            <li>Apples</li>
+            <li>Bananas</li>
+            <li>Cherries</li>
+            <li>Dates</li>
+        </ol>
+
+        <ol style="list-style-type: lower-alpha;">
+            <li>Apples</li>
+            <li>Bananas</li>
+            <li>Cherries</li>
+            <li>Dates</li>
+        </ol>
+
+        <ol style="list-style-type: upper-alpha;">
+            <li>Apples</li>
+            <li>Bananas</li>
+            <li>Cherries</li>
+            <li>Dates</li>
+        </ol>
+
+    </div>
+
+    <div class="defi">
+        <h2>Definition List:</h2>
+
+        <dl>
+            <dt>Apples</dt>
+            <dd>A delicious fruit commonly eaten as a snack or used in cooking.</dd>
+            <dt>Bananas</dt>
+            <dd>A tropical fruit that is rich in potassium and commonly eaten as a snack.</dd>
+        </dl>
+
+        <dl>
+            <dt>I. Apples</dt>
+            <dd>A delicious fruit commonly eaten as a snack or used in cooking.</dd>
+            <dt>II. Bananas</dt>
+            <dd>A tropical fruit that is rich in potassium and commonly eaten as a snack.</dd>
+        </dl>
+
+        <dl>
+            <dt>a. Apples</dt>
+            <dd>A delicious fruit commonly eaten as a snack or used in cooking.</dd>
+            <dt>b. Bananas</dt>
+            <dd>A tropical fruit that is rich in potassium and commonly eaten as a snack.</dd>
+        </dl>
+
+    </div>
+
+</body>
+
+</html>

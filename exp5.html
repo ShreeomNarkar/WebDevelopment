@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: black;
+            display: flex;
+        }
+
+        #image {
+            height: 65%;
+            width: 60%;
+            border-radius: 8%;
+
+        }
+
+        #image:hover {
+            filter: grayscale(1);
+            transition: all 1s ease-in-out;
+            scale: .9;
+        }
+
+        .left {
+            width: 45%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .right {
+            width: 55%;
+            height: 100vh;
+            color: rgb(240, 235, 235);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        h1 {
+            margin-bottom: 5%;
+            font-size: 40px;
+        }
+
+        p {
+            width: 80%;
+            text-align: justify;
+            line-height: 25px;
+            padding-top: 40px;
+        }
+
+        hr {
+            width: 80%;
+        }
+
+        h3 {
+            margin-top: 3%;
+            color: rgb(219, 210, 200);
+            opacity: 0;
+        }
+
+        .right:hover h3 {
+            opacity: 1;
+            transition: all 1s ease-in;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="left">
+        <img id="image" src="assets/flamingo.avif">
+    </div>
+    <div class="right">
+        <h1>Flamingo</h1>
+        <hr>
+        <p>The Greater Flamingo is the largest and most widespread species of flamingo, found in Africa, southern
+            Europe, the Middle East, and South Asia. Known for their tall, slender bodies and striking pink plumage,
+            they thrive in shallow saltwater lagoons and wetlands. Their diet mainly consists of algae, plankton, and
+            crustaceans, which give them their pink color. Highly social, they live in large flocks and perform
+            synchronized group displays during breeding. They are also famous for their unique one-legged stance and
+            specialized beak, which helps them filter-feed in the water.</p>
+
+        <h3>~ Shreeom S. Narkar</h3>
+    </div>
+</body>
+
+</html>
