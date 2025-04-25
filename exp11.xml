@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="exp11.css" type="text/css"?>
+<Animals>
+	<animal>
+		<name>
+			Elephant
+		</name>
+		<type>
+			Herbivore
+		</type>
+		<description>
+			Elephants are the largest land animals, known for their long trunks and tusks.
+			They are gentle herbivores that eat grass, fruits, and bark.
+		</description>
+	</animal>
+	<animal>
+		<name>
+			Tiger
+		</name>
+		<type>
+			Carnivore
+		</type>
+		<description>
+			Tigers are powerful big cats with orange fur and black stripes.
+			They are carnivores and hunt animals like deer for food.
+		</description>
+	</animal>
+	<animal>
+		<name>
+			Lion
+		</name>
+		<type>
+			Carnivore
+		</type>
+		<description>
+			Lions are known as the "king of the jungle" and live in groups called prides.
+			They are fierce carnivores that mainly eat large herbivores.
+		</description>
+	</animal>
+	<animal>
+		<name>
+			Deer
+		</name>
+		<type>
+			Herbivore
+		</type>
+		<description>
+			Deer are graceful animals with antlers and a strong sense of hearing.
+			They are herbivores and feed on leaves, grass, and fruits.
+		</description>
+	</animal>
+	<animal>
+		<name>
+			Tortoise
+		</name>
+		<type>
+			Herbivore
+		</type>
+		<description>
+			Tortoises are slow-moving reptiles with hard, dome-shaped shells.
+			Most are herbivores, eating plants, while some species may eat insects.
+		</description>
+	</animal>
+</Animals>

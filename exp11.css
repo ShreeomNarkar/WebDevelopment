@@ -1,0 +1,21 @@
+Animals{
+    background-color: rgb(28, 29, 27);
+}
+
+animal{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+name{
+    font-size: 30px;
+    color:white
+}
+type{
+    font-size: 20px;
+    color:rgb(133, 128, 128)
+}
+description{
+    font-size: 18px;
+    color: rgb(210, 150, 30);
+}
