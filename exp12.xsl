@@ -4,7 +4,7 @@
 <xsl:template match="/">
 <html> 
 <body>
-  <h2>My Team Playesr</h2>
+  <h2>Chennai Super Kings</h2>
   <table border="1">
     <tr bgcolor="#9acd32">
       <th style="text-align:left">Player</th>
